@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digi Market</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="libs/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+<body >
+    <script>
+        document.body.classList.add('fade');
+        document.addEventListener("DOMContentLoaded", () => {
+        window.setTimeout(function() {
+        document.body.className = '';
+        document.body.classList.remove('fade');
+        }, 530);
+        });
+     </script>
+    
+    <header id="header">
+        <div class="container">
+            <div class="row ltr ">
+                <div class=" w-100 text-center mt-2 myalarm alert  alert-dismissible fade show" role="alert">
+                    هزینه اولین سفارش شما رایگان است.
+                    <button type="button" class="close " data-dismiss="alert" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                   </button>
+                  </div>
+            </div>
+            <div class="row py-2" id="fixnav">
+                <div class="col-md-2 col-2">
+                    <img src="images/brand.png" class="img-fluid " id="brand">
+                </div>
+
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                    <div class="sonar-wrapper  ">
+                        <div class="sonar-emitter">
+                        <div class="sonar-wave"></div>
+                      </div>
+                    </div>
+                    <span>ابتدا آدرس خود را انتخاب کنید.</span>
+                    
+                </div>
+                <div class="  ml-auto col-6 ">
+                    <i class="far fa-user pl-1"></i>
+                <span>ورود / عضویت </span>
+                </div>
+               
+            </div>
+            <hr class="hr my-3">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/market.jpg" class="rounded-circle" id="market">
+                </div>
+                <div class="col-4 text-center d-flex justify-content-center align-items-center">
+                    <span> خرید از هایپراستار</span>
+                    <select class="form-select mr-2 px-1  "  style=" height:23px;font-size:12px;border-radius: 14px;">
+                        <option selected>تغییر فروشگاه</option>
+                        <option value="1">باکری</option>
+                        <option value="2">صبا</option>
+                        <option value="3">پاسداران</option>
+                    </select>
+                </div>
+                <div class="col-6">
+                    <i class="far fa-clock"></i>
+                    <span style="font-size: xx-small;">تحویل از امروز ساعت ۱۲</span>
+                </div>
+            </div>
+            <div class="row my-3 d-flex justify-content-between">
+                <div class="  text-left "  id="megamenu">
+                    <button class="btn btn-light btn-sm" type="button" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="collapse">
+                     <i class="fas fa-th-large"></i> دسته بندی
+                    </button>
+                  
+                </div>
+                <div class=" align-self-end searchbox">
+                    <form class="form-inline pl-sm-3" >
+                        <i class="fas fa-search ml-1 "></i>
+                    <input  style="border-radius: 14px; height:32px;font-size: 10px;width:160px;" class=" form-control mr-sm-2" type="search" placeholder="جستجو محصول یا برند" aria-label="Search">
+                    </form>
+                </div>
+               
+            </div>
+            <div class="row " >
+                <div class="col-md-12  text-right">
+                <div class="collapse " id="collapse">
+                    <div class="card card-body">
+                      <ul  class="d-flex " style="color:rgb(15, 15, 15);">
+                          <li class="items">مردانه
+                               <ul class="myli text-muted small">
+                                <li>پوشاک</li>
+                                <li>ورزشی</li>
+                                <li>اکسسوری</li>
+                                 </ul>
+                          </li>
+                          <li class="items">زنانه
+                            <ul class=" myli text-muted small">
+                                <li>پوشاک</li>
+                                <li>ورزشی</li>
+                                <li>اکسسوری</li>
+                                 </ul>
+                          </li>
+                          <li class="items ">بهداشتی
+                            <ul class=" myli text-muted small">
+                                <li>مو</li>
+                                <li>زنان</li>
+                                <li>پوست</li>
+                                 </ul>
+                          </li>
+                        
+                          <li class="items">خواروبار
+                            <ul class=" myli text-muted small">
+                                <li>میوه</li>
+                                <li>برنج</li>
+                                <li>سبزی</li>
+                                 </ul>
+                          </li>
+                          <li>دیجیتال
+                            <ul class="myli text-muted small">
+                                <li>موبایل</li>
+                                <li>تلوزیون </li>
+                                <li>پاور بانک</li>
+                                 </ul>
+                          </li>
+                         
+                      </ul>
+                      
+                    </div>
+                  </div>
+            </div>
+         </div>
+        </div>
+    </header>
+   <div id="sticker" >
+       <a href="#"  >
+        <img src="images/free.png" alt="ارسال-رایگان" class="img-fluid ">
+       </a>
+        <button type="button" class="close" id="stickbtn" ></button>
+   </div>
+<section id="men">
+    <div class="container">
+        <div class="row mt-5 mx-1">
+            <h5 class="mentitle  mb-1"  >مردانه</h5>
+            <div class="men men0">
+                <a href="#">
+                    <img src="images/men0.png" alt="لباس مردانه" class="container-fluid">
+                    <span style="right:10px;">لباس مردانه</span>
+                </a>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="men men1 col-md-4 ">
+                <a href="#">
+                    <img src="images/men1.png" alt="ورزش مردانه"class="container-fluid">
+                    <span>ورزش مردانه</span>
+                </a>
+            </div>
+            <div class="men men2 col-md-4">
+                <a href="#">
+                    <img src="images/men2.png" alt="اکسسوری مردانه"class="container-fluid">
+                    <span>اکسسوری مردانه</span>
+                </a>
+            </div>
+            <div class="men men3 col-md-4">
+                <a href="#">
+                    <img src="images/men3.png" alt=" کفش مردانه"class="container-fluid">
+                    <span> کفش مردانه</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+    <div class="row">
+        <div class="col-12 ">
+            <div class="products  mb-4  mx-3  p-2">
+                <div class="productsTitle d-flex align-items-start ">
+                <span class="ml-auto title">محبوب ترین محصولات</span> 
+                <a href="#">مشاهده بیشتر</a> 
+                <i class="fas fa-chevron-left pr-2 pt-1"></i>
+               </div>
+               <div class="owl-carousel owl-theme  mt-1 text-center " id="fav-products">
+                 
+
+
+
+                
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="women">
+    <div class="container">
+        <div class="row mt-5 mx-1">
+            <h5 class="mentitle  mb-1"  >زنانه</h5>
+            <div class="men men0">
+                <a href="#">
+                    <img src="images/we0.png" alt="زنانه" class="container-fluid">
+                    <span style="right:10px;">لباس زنانه</span>
+                </a>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="men men1 col-md-4 ">
+                <a href="#">
+                    <img src="images/we2.png" alt="ورزش زنانه"class="container-fluid">
+                    <span>ورزش زنانه</span>
+                </a>
+            </div>
+            <div class="men men2 col-md-4">
+                <a href="#">
+                    <img src="images/we3.png" alt="اکسسوری زنانه"class="container-fluid">
+                    <span>اکسسوری زنانه</span>
+                </a>
+            </div>
+            <div class="men men3 col-md-4">
+                <a href="#">
+                    <img src="images/we1.png" alt=" کفش مردانه"class="container-fluid">
+                    <span> کفش زنانه</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="mag">
+    <div class="container">
+        <h5 class="mentitle  mb-1 ">دیجی‌مارکت در دیجی‌مگ</h5>
+        <div class="row mr-4">
+           
+            <div class="col-md-4">
+                <div class="card text-center" style="width:90%;overflow: hidden;">
+                    <div class="rimg mb-3">
+                    <img class="card-img-top rightimage w-120" src="images/men-scarves.jpg" alt="عطر"> </div>
+                    <div class="card-body mt-5 ">
+                        <a href="#" class="text-decoration-none text-dark">
+                      <h5 class="card-title">
+                        نکاتی درباره‌ی شال گردن مردانه که برای خاص بودن باید بدانید
+                    </h5>
+                      <p class="card-text">بیش از ۲۰۰۰ سال است که مردان از شال گردن استفاده می‌کنند. شال گردن مردانه به ویژه در فصل زمستان یکی از اکسسوری‌های اساسی به شمار می‌رود و به راحتی می‌تواند استایلی متفاوت به تیپ روزمره یا رسمی شما بدهد،  ...
+                     </p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center" style="width:90%;overflow: hidden;">
+                  
+                    <img class="card-img-top mb-3 w-120" src="images/van.jpg" alt="عطر">
+                    <div class="card-body mt-5 ">
+                        <a href="#" class="text-decoration-none text-dark">
+                      <h5 class="card-title">
+                        آیریس ون هرپن؛ طراح لباس یا معمار لباس؟
+                    </h5>
+                      <p class="card-text">  متوجه می‌شوید آن روبان‌های سفید در واقع بیش از هزار متر بتن سفید بنایی قرمز رنگ در وسط منطقه‌ای خالی در شهر لیدن کشور هلند، در حالی که به نظر می‌رسدآن روبان‌های سفیدو رنگی دور تا دور عمارت در نمای نزدیک‌تر،   ...
+                     </p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center" style="width:90%;overflow: hidden;">
+                    <div class="limg mb-3">
+                    <img class="card-img-top leftimage w-120" src="images/perfume.jpg" alt="عطر"> </div>
+                    <div class="card-body mt-5 ">
+                        <a href="#" class="text-decoration-none text-dark">
+                      <h5 class="card-title">
+                        ۱۱ عطر و ادکلن جدید و خوشبو مناسب برای تابستان
+                    </h5>
+                      <p class="card-text">در روزهای گرم و پرطراوت تابستان و بهار، انتخاب عطرهایی دلچسب با رایحه‌های خنک، شیرین و آرامش‌بخش علاوه بر حس تازگی و طراوتی که در شما ایجاد می‌کند باعث می‌شوند استایل جذاب‌تری داشته باشید. عطرها   ...
+                     </p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+<div class="container">
+<div class="row mt-4 w-100">
+    <div class="text-center w-100"> 
+        <a href="#header"><img id="gotop" src="images/gotop.png"></a>
+        بازگشت به بالا</div>
+</div>
+</div>
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 text-justify">
+            <h6 class="font-weight-bolder"> فروشگاه اینترنتی دیجی‌مارکت، بررسی، انتخاب و خرید آنلاین</h6>
+            <p class="footerp">
+               
+دیجی‌مارکت به عنوان یکی از قدیمی‌ترین فروشگاه های اینترنتی با بیش از یک دهه تجربه، با پایبندی به سه اصل، پرداخت در محل، 7 روز ضمانت بازگشت کالا و تضمین اصل‌بودن کالا موفق شده تا همگام با فروشگاه‌های معتبر جهان، به بزرگ‌ترین فروشگاه اینترنتی ایران تبدیل شود. به محض ورود به سایت دیجی‌مارکت با دنیایی از کالا رو به رو می‌شوید! هر آنچه که نیاز دارید و به ذهن شما خطور می‌کند در اینجا پیدا خواهید کرد.
+            </p>
+          </div>
+          <div class="col-md-5 d-flex justify-content-around align-content-center">
+              <img src="images/neshane meli.png" alt="" >
+              <img src="images/etehadie.png" style="height:150px;">
+          </div>
+        </div>
+        <div class="row d-flex justify-content-between mt-3 sites">
+            
+            <img src="images/fidibo.svg">
+            <img src="images/digiclub.svg">
+            <img src="images/digistyle.svg">
+            <img src="images/digimag.svg">
+            <img src="images/pay.svg">
+            
+        </div>
+        <hr>
+        <div class="row">
+            <p class="footerp">
+            استفاده از مطالب فروشگاه اینترنتی دیجی‌کالا فقط برای مقاصد غیرتجاری و با ذکر منبع بلامانع است. کلیه حقوق این سایت متعلق به شرکت نوآوران فن آوازه (فروشگاه آنلاین دیجی‌مارکت) می‌باشد.
+           </p>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/cb6cf116c7.js" crossorigin="anonymous"></script>
+    <script src="libs/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

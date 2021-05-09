@@ -1,0 +1,44 @@
+@import 'subsidiary' ;
+
+$alarmColor:rgb(255,186,8);
+$lightColor:azure;
+$darkColor:rgb(15, 15, 15);
+
+@mixin translate($x , $y) {
+    -webkit-transform: translate($x , $y);
+    -moz-transform: translate($x , $y);
+    -ms-transform: translate($x , $y);
+    -o-transform: translate($x , $y);
+    transform: translate($x , $y);
+}
+
+@mixin anime($name , $dus , $des , $timing , $count , $fill ) {
+    -webkit-animation-name:$name;
+    animation-name:$name;
+
+    -webkit-animation-duration: $dus;
+    animation-duration: $dus;
+
+    -webkit-animation-delay: $des;
+    animation-delay: $des;
+    -webkit-animation-timing-function: $timing;
+    animation-timing-function: $timing;
+
+    -webkit-animation-iteration-count: $count;
+    animation-iteration-count: $count;
+ 
+    -webkit-animation-fill-mode: $fill;
+    animation-fill-mode: $fill;
+}
+#header{
+    color:$lightColor;
+    
+}
+.myalarm{
+    background-color: $alarmColor ;
+    color: $darkColor ;
+    font-family:iransans-bold;
+}
+.sonar-wave {
+    @include anime(sonarWave,2s,0s,linear, infinite,none) ;
+  }
